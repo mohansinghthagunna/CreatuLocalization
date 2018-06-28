@@ -24,15 +24,16 @@ extension UIViewController {
     }
 }
 
-public class LocalizationViewController: UIViewController {
-    override public func viewDidLoad() {
+open class LocalizationViewController: UIViewController {
+    override open func viewDidLoad() {
         super.viewDidLoad()
+        Localization.startLocalization()
         if CreatuLanguage.isRTLLanguage {
             loopThroughSubViewAndFlipTheImageIfItsAUIImageView(subviews: self.view.subviews)
         }
     }
 
-    override public func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
     }

@@ -12,7 +12,7 @@ public struct Localization {
 
 
     /// Start you swizzling process
-    public static func startSwizzling() {
+    public static func startLocalization() {
         CreatuLocalizer.startSwizzling()
     }
 
