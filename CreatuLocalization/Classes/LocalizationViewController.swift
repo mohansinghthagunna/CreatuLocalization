@@ -27,7 +27,6 @@ extension UIViewController {
 open class LocalizationViewController: UIViewController {
     override open func viewDidLoad() {
         super.viewDidLoad()
-        Localization.startLocalization()
         if CreatuLanguage.isRTLLanguage {
             loopThroughSubViewAndFlipTheImageIfItsAUIImageView(subviews: self.view.subviews)
         }
