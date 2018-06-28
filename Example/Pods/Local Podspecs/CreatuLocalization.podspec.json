@@ -1,0 +1,22 @@
+{
+  "name": "CreatuLocalization",
+  "version": "0.1.0",
+  "summary": "A short description of CreatuLocalization.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mohansinghthagunna/CreatuLocalization",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohansinghthagunna": "mohansingh_thagunna@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/mohansinghthagunna/CreatuLocalization.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CreatuLocalization/Classes/**/*"
+}
