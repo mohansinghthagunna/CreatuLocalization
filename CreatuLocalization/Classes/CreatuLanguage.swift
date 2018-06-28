@@ -53,7 +53,10 @@ struct CreatuLanguage {
         } else {
             debugPrint("You can't switch same language")
         }
+        refreshScreenMode()
+    }
 
+    static func refreshScreenMode() {
         if CreatuLanguage.isRTLLanguage {
             if #available(iOS 9.0, *) {
                 UIView.appearance().semanticContentAttribute = .forceRightToLeft

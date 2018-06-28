@@ -14,6 +14,7 @@ public struct Localization {
     /// Start you swizzling process
     public static func startLocalization() {
         CreatuLocalizer.startSwizzling()
+        CreatuLanguage.refreshScreenMode()
     }
 
 
