@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CreatuLocalization'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CreatuLocalization.'
+  s.version          = '0.1.1'
+  s.summary          = 'this is simple ios localization'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'The iOS devices including iPhone and iPad are available globally. Obviously, iOS users are from different countries and speak different languages. To deliver a great user experience, you may want to make your app available in multiple languages. The process of adapting an app to support a particular language is usually known as localization.'
 
   s.homepage         = 'https://github.com/mohansinghthagunna/CreatuLocalization'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
